@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">PH Measure</string>
+
+    <string name="lbl_status">Status:</string>
+    <string name="btn_bt_on">Bluetooth ON</string>
+    <string name="btn_bt_off">Bluetooth OFF</string>
+    <string name="btn_show_paired">Show paired Devices</string>
+    <string name="btn_discover_on">Discover New Devices - ON</string>
+    <string name="btn_discover_off">Discover New Devices - OFF</string>
+
+    <string name="status_default">&lt;Bluetooth Status></string>
+    <string name="status_on">Bluetooth enabled</string>
+    <string name="status_off">Bluetooth disabled</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_enabled">Enabled</string>
+    <string name="status_disabled">Disabled</string>
+    <string name="status_not_found">Status: Bluetooth not found</string>
+    <string name="status_conn_failed">Connection Failed</string>
+    <string name="status_connected">Connected to Device: %1$s</string>
+
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <string name="menu_title">Menu</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+
+    <string name="control_loading">  Loading, Please wait...</string>
+    <string name="control_connected">Connected</string>
+    <string name="control_disconnected">Disconnected</string>
+    <string name="control_num">N.</string>
+    <string name="control_date">Date</string>
+    <string name="control_sample">Sample</string>
+
+    <string name="toast_bt_on">Bluetooth turned on</string>
+    <string name="toast_bt_was_on">Bluetooth is already on</string>
+    <string name="toast_bt_off">Bluetooth turned Off</string>
+    <string name="toast_bt_not_on">Bluetooth not on</string>
+    <string name="toast_not_found">Bluetooth device not found!</string>
+    <string name="toast_scan_stopped">Discovery stopped</string>
+    <string name="toast_scan_started">Discovery started</string>
+    <string name="toast_show_paired">Show Paired Devices</string>
+    <string name="toast_sockt_error">Socket creation failed</string>
+
+    <string name="help_title">What is pH?</string>
+    <string name="help_paragraph_0">pH is a measure of the hydorgen ion concentration of a solution. Solutions with a high concentration of hydrogen ions have a low pH and solutions with a low concentrations of H+ ions have a high pH</string>
+    <string name="help_paragraph_1">The pH is equal to minus the log of the H+ concentration.</string>
+    <string name="help_cell_0_0">Hydrogen ion\nconcetration</string>
+    <string name="help_cell_0_1">pH</string>
+    <string name="help_cell_0_2">Solutions with\na pH of</string>
+    <string name="help_cell_1_0">.1M</string>
+    <string name="help_cell_2_0">.01M</string>
+    <string name="help_cell_3_0">.001</string>
+    <string name="help_cell_4_0">.0001</string>
+    <string name="help_cell_5_0">.00001</string>
+    <string name="help_cell_6_0">.000001</string>
+    <string name="help_cell_7_0">.0000001</string>
+    <string name="help_cell_8_0">.00000001</string>
+    <string name="help_cell_9_0">.000000001</string>
+    <string name="help_cell_10_0">.0000000001</string>
+    <string name="help_cell_11_0">.00000000001</string>
+    <string name="help_cell_12_0">.000000000001</string>
+    <string name="help_cell_13_0">.0000000000001</string>
+    <string name="help_cell_1_1">1</string>
+    <string name="help_cell_2_1">2</string>
+    <string name="help_cell_3_1">3</string>
+    <string name="help_cell_4_1">4</string>
+    <string name="help_cell_5_1">5</string>
+    <string name="help_cell_6_1">6</string>
+    <string name="help_cell_7_1">7</string>
+    <string name="help_cell_8_1">8</string>
+    <string name="help_cell_9_1">9</string>
+    <string name="help_cell_10_1">10</string>
+    <string name="help_cell_11_1">11</string>
+    <string name="help_cell_12_1">12</string>
+    <string name="help_cell_13_1">13</string>
+    <string name="help_cell_1_2"> </string>
+    <string name="help_cell_2_2">Coke and orange juice</string>
+    <string name="help_cell_3_2"> </string>
+    <string name="help_cell_4_2"> </string>
+    <string name="help_cell_5_2">Black coffee</string>
+    <string name="help_cell_6_2"> </string>
+    <string name="help_cell_7_2">Pure water</string>
+    <string name="help_cell_8_2"> </string>
+    <string name="help_cell_9_2">Baking soda</string>
+    <string name="help_cell_10_2"> </string>
+    <string name="help_cell_11_2"> </string>
+    <string name="help_cell_12_2">Household bleach</string>
+    <string name="help_cell_13_2">Oven cleaner</string>
+</resources>

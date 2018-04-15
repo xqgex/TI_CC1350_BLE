@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/control_loading"
+        android:id="@+id/data_value" />
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/graph" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/table_header">
+        <TextView
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "0.8"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "@string/control_num" />
+        <TextView
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "2"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "@string/control_date" />
+        <TextView
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1.5"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "@string/control_sample" />
+    </LinearLayout>
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:id="@+id/list_view"
+        android:divider = "@null" />
+</LinearLayout>

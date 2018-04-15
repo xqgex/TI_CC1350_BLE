@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.simplebluetooth.ControlActivity">
+    <item android:id="@+id/menu_connect"
+          android:title="@string/menu_connect"
+          android:orderInCategory="1"
+          app:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_disconnect"
+          android:title="@string/menu_disconnect"
+          android:orderInCategory="2"
+          app:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_help"
+        android:title="@string/menu_help"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_help_outline"/>
+</menu>
