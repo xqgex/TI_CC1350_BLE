@@ -7,15 +7,15 @@
    2. Our project not only eliminates the need to reopen the water tank to make the measurement, but also lets you know about the history of the pH level by sampling every 20 seconds, Once you have been connected to the TI board with your phone, All the historical measurements will be show on your mobile device screen as a graph and the measurements time based on your local time (there is no need to synchronize any clock on the TI board).
 ### 3. System schematics:
 
-   <img src="https://github.com/xqgex/TI_CC1350_BLE/README_files/image6.png" alt="System schematics" height="200">
+   <img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/image6.png" alt="System schematics" height="200">
 
 ### 4. Live system setup:
 
-   <img src="https://github.com/xqgex/TI_CC1350_BLE/README_files/image3.jpg" alt="Live system setup" height="300">
+   <img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/image3.jpg" alt="Live system setup" height="300">
 
 ### 5. Example video
 
-   <a href="https://github.com/xqgex/TI_CC1350_BLE/README_files/exp_video.mp4" target="_blank"><img src="https://github.com/xqgex/TI_CC1350_BLE/README_files/exp_video.png" alt="Example video" height="300" border="10" /></a>
+   <a href="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/exp_video.mp4" target="_blank"><img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/exp_video.png" alt="Example video" height="300" border="10" /></a>
 
 ### 6. Equipment
    1. #### Hardware:
@@ -27,10 +27,10 @@
       2. [TI Code composer studio](http://www.ti.com/tool/CCSTUDIO "TI Code composer studio") - for developing software on the TI LAUNCHXL-CC1350
    3. #### Images of the Gravity_pH_Sensor:
 
-       <img src="https://github.com/xqgex/TI_CC1350_BLE/README_files/Gravity_pH_Sensor_1.jpg" alt="Gravity pH Sensor" height="200">
-       <img src="https://github.com/xqgex/TI_CC1350_BLE/README_files/Gravity_pH_Sensor_2.jpg" alt="Gravity pH Sensor" height="200">
-       <img src="https://github.com/xqgex/TI_CC1350_BLE/README_files/Gravity_pH_Sensor_3.jpg" alt="Gravity pH Sensor" height="200">
-       <img src="https://github.com/xqgex/TI_CC1350_BLE/README_files/Gravity_pH_Sensor_4.jpg" alt="Gravity pH Sensor" height="200">
+       <img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/Gravity_pH_Sensor_1.jpg" alt="Gravity pH Sensor" height="200">
+       <img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/Gravity_pH_Sensor_2.jpg" alt="Gravity pH Sensor" height="200">
+       <img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/Gravity_pH_Sensor_3.jpg" alt="Gravity pH Sensor" height="200">
+       <img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/Gravity_pH_Sensor_4.jpg" alt="Gravity pH Sensor" height="200">
 
 ### 7. Development process
    1. #### Board <=> Phone communication:
@@ -61,20 +61,20 @@
          1. The application have three parts,
          2. The first one is to constantly scan for BT devices and wait for user prompt.
 
-            <img src="https://github.com/xqgex/TI_CC1350_BLE/README_files/Screenshot_1.png" alt="Step 1" height="400">
-            <img src="https://github.com/xqgex/TI_CC1350_BLE/README_files/Screenshot_2.png" alt="Step 1" height="400">
-            <img src="https://github.com/xqgex/TI_CC1350_BLE/README_files/Screenshot_3.png" alt="Step 1" height="400">
+            <img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/Screenshot_1.png" alt="Step 1" height="400">
+            <img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/Screenshot_2.png" alt="Step 1" height="400">
+            <img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/Screenshot_3.png" alt="Step 1" height="400">
          
          3. Then the app switch activity and start to communicate with the board using the communication protocol as described in section 7.1.
          4. The third part is to display the data to the user using values table and graph with zoom in/out capability
 
-            <img src="https://github.com/xqgex/TI_CC1350_BLE/README_files/Screenshot_4.png" alt="Step 3" height="400">
-            <img src="https://github.com/xqgex/TI_CC1350_BLE/README_files/Screenshot_5.png" alt="Step 3" height="400">
+            <img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/Screenshot_4.png" alt="Step 3" height="400">
+            <img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/Screenshot_5.png" alt="Step 3" height="400">
 
          5. In addition to the application there is a help page with information about PH
 
-            <img src="https://github.com/xqgex/TI_CC1350_BLE/README_files/Screenshot_6.png" alt="Help page" height="400">
-            <img src="https://github.com/xqgex/TI_CC1350_BLE/README_files/Screenshot_7.png" alt="Help page" height="400">
+            <img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/Screenshot_6.png" alt="Help page" height="400">
+            <img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/Screenshot_7.png" alt="Help page" height="400">
 
    3. #### TI-RTOS application:
       ##### 1. Development process:
@@ -93,17 +93,17 @@
          1. The BLE app saves 2560B of samples data. This size is sufficient to save enough samples backwards and to also not overwhelm the device’s memory.
          2. The integrated circuit of the PH meter:
 
-            <img src="https://github.com/xqgex/TI_CC1350_BLE/README_files/image2.png" alt="Integrated circuit of the PH meter" height="300">
+            <img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/image2.png" alt="Integrated circuit of the PH meter" height="300">
 
          3. The PH meter:
 
-            <img src="https://github.com/xqgex/TI_CC1350_BLE/README_files/image5.png" alt="PH meter" width="500">
-            <img src="https://github.com/xqgex/TI_CC1350_BLE/README_files/image4.png" alt="PH meter" height="200">
+            <img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/image5.png" alt="PH meter" width="500">
+            <img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/image4.png" alt="PH meter" height="200">
 
          4. The PH meter takes 5V and GND inputs, both supplied by the TI board. Its output is an analog output, which we connected to the board in an ADC input.
          5. The PH meter samples output an analog value in mV, which converts to PH value with the following translation table:
 
-            <img src="https://github.com/xqgex/TI_CC1350_BLE/README_files/image1.png" alt="Translation table">
+            <img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/image1.png" alt="Translation table">
 
             The board performs a conversion between these voltages to the required PH value.
 ### 8. Our learning process
