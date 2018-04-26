@@ -15,7 +15,9 @@
 
 ### 5. Example video
 
-   <a href="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/exp_video.mp4" target="_blank"><img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/exp_video.png" alt="Example video" height="300" border="10" /></a>
+   <a href="https://vimeo.com/266579924" target="_blank"><img src="https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/exp_video.png" alt="Example video" height="300" border="10" /></a>
+   
+   [Download link](https://github.com/xqgex/TI_CC1350_BLE/blob/master/README_files/exp_video.mp4 "Download link")
 
 ### 6. Equipment
    1. #### Hardware:
